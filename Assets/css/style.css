@@ -1,0 +1,58 @@
+#header-container {
+    background-image: linear-gradient(to right, rgb(141, 141, 190), navy);
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    color: black;
+    padding-left: 10px;
+}
+
+#current-city {
+    margin-left: 10px;
+}
+
+#search-button, #search-input {
+    margin-left: 25px;
+    margin-top: 8px;
+}
+
+#city-label {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#current-city-container {
+    border: solid black 2px;
+    min-width: 75%;
+    max-width: 80%;
+}
+
+#five-day-container {
+    width: 100%;
+}
+
+#one-day-out-forecast, 
+#two-days-out-forecast,
+#three-days-out-forecast,
+#four-days-out-forecast,
+#five-days-out-forecast {
+    width: 250px;
+    max-width: 250px;
+    height: 250px;
+    font-size: 20px;
+}
+
+#recent-searches {
+    color: black;
+}
+
+.yellow-icon {
+    color: yellow;
+}
